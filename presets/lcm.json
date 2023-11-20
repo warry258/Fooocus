@@ -38,7 +38,7 @@
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "leosamsHelloworldSDXL_helloworldSDXL20.safetensors": "https://civitai.com/api/download/models/227916"
+        "leosamsHelloworldSDXL_helloworldSDXL20.safetensors": "https://civitai.com/api/download/models/227916?type=Model&format=SafeTensor&size=full&fp=fp16"
     },
     "embeddings_downloads": {},
     "lora_downloads": {}
