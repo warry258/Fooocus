@@ -251,7 +251,7 @@ default_image_number = get_config_item_or_set_default(
 checkpoint_downloads = get_config_item_or_set_default(
     key='checkpoint_downloads',
     default_value={
-        "leosamsHelloworldSDXL_helloworldSDXL20.safetensors": "https://civitai.com/api/download/models/227916"
+        "leosamsHelloworldSDXL_helloworldSDXL20.safetensors": "https://civitai.com/api/download/models/227916?type=Model&format=SafeTensor&size=full&fp=fp16"
     },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
 )
